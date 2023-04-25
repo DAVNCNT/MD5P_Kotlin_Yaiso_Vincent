@@ -1,4 +1,5 @@
 fun main(){
+    //Input
     println("What is your name?")
     var name = readln()
 
@@ -8,6 +9,7 @@ fun main(){
     println("\nEnter Birth Year: ")
     var birthYear = readln().toInt()
 
+    //Process
     var age = "${currentYear - birthYear}"
 
     println("$name, your age on $currentYear is $age")
