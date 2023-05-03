@@ -12,6 +12,6 @@ fun main (){
 }
 
 fun replaceSpaces(text: String): String {
-    var result = text.replace(" ", "_")
+    var result = text.replace("\\s+".toRegex(), "_")
     return result
 }
